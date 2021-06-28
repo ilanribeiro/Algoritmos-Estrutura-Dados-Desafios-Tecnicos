@@ -23,7 +23,7 @@ const objectLikeHashMap = {
     return multResult;
   },
   div: (a, b) => {
-    if (b === 0) {
+    if (a === 0 || b === 0) {
       return "Divisão não permite dividendo 0";
     }
 
